@@ -1,0 +1,38 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 1px dotted red;
+}
+@font-face {
+	font-family: crux;
+	src: url('fonts/coders_crux.ttf');
+}
+@font-face {
+	font-family: barcode;
+	src: url('fonts/paskowy.ttf');
+}
+body, html {
+	height: 100%;
+}
+.barcode {
+	font-family: barcode;
+}
+.crux {
+	font-family: crux;
+}
+
+@media only screen and (max-width: 480px) {
+	.logo {
+		font-family: barcode;
+		font-size: 80px;
+	}
+
+	.bg-mobile {
+		background-image: url("images/iphone.jpg");
+		height: 100%;
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
